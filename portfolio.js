@@ -5,7 +5,8 @@ export const greetings = {
   title: "Welcome.",
   description:
     "I'm Bassam Naeem, a dynamic and driven full-stack developer currently pursuing a BSCS degree at the University of Karachi. With an insatiable curiosity and a passion for coding, I thrive on turning innovative ideas into tangible, user-centric web solutions. Proficient in the MERN stack, Next.js, and Postgres, I'm constantly expanding my technological toolkit to create elegant and efficient solutions for real-world problems and exciting new projects.",
-  resumeLink: "https://bassamnaeem.me/Resume/",
+  resumeLink:
+    "https://drive.google.com/file/d/1DQ-slJrCXwEi1vmrKzVnpiJZYzIs_8dh/view?usp=drive_link/",
 };
 
 export const openSource = {
@@ -15,7 +16,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-  url: "https://www.ovsknife.com/home",
+  url: "https://www.bassamnaeem.me",
   github: "https://github.com/bassamnaeem",
   linkedin: "https://www.linkedin.com/in/bassamnaeem/",
 };
