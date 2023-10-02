@@ -60,10 +60,9 @@ const Greetings = () => {
                     style={{ width: "500px" }}
                   /> */}
                   <Image
-                    src="/img/my-image.png"
-                    // width={600}
-                    // height={600}
-                    layout="fill"
+                    src="/img/image.png"
+                    width={600}
+                    height={600}
                     alt="My Image"
                   />
                 </Col>
