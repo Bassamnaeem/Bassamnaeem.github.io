@@ -135,7 +135,7 @@ export const educationInfo = [
     duration: "Feburary 2021 - Present",
     desc: "Bachelors of Science in Computer Science",
     descBullets: [
-      "The Bachelors of Science in Computer Science (BSCS) - Programming degree option allows students to ",
+      "The Bachelors of Science in Computer Science (BSCS) ,Courses include: Data Structures, Algorithms, Object Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Software Engineering, and Web Development.",
     ],
     github: "https://github.com/Bassamnaeem/",
   },
