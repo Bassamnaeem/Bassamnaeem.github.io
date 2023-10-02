@@ -61,8 +61,9 @@ const Greetings = () => {
                   /> */}
                   <Image
                     src="/img/my-image.png"
-                    width={600}
-                    height={600}
+                    // width={600}
+                    // height={600}
+                    layout="fill"
                     alt="My Image"
                   />
                 </Col>
