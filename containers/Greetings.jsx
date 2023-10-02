@@ -10,7 +10,7 @@ import { Button, Container, Row, Col } from "reactstrap";
 
 import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "../components/SocialLinks";
-import Image from "next/image";
+import myImage from "../public/img/my-image.png";
 
 const Greetings = () => {
   useEffect(() => {
@@ -53,13 +53,17 @@ const Greetings = () => {
                 </Col>
                 <Col lg="6">
                   {/* <GreetingLottie animationPath="/lottie/coding.json" /> */}
-
-                  <Image
+                  <img
+                    src={myImage}
+                    alt="My Image"
+                    style={{ width: "500px" }}
+                  />
+                  {/* <Image
                     src="/img/my-image.png"
                     width={600}
                     height={600}
                     alt="My Image"
-                  />
+                  /> */}
                 </Col>
               </Row>
             </div>

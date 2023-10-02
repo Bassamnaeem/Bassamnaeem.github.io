@@ -192,9 +192,9 @@ export const certifications = {
 };
 export const projects = [
   {
-    name: "Tour Things To Do",
+    name: "Tours Things To Do",
     desc: "Tour Things To Do is a website that allows users to find Events in their cities and book tickets. It was built using NextJS, NodeJS, and Postgres.",
-    link: "https://tourthingstodo.com/",
+    link: "https://toursthingstodo.com/",
     tags: ["NextJS", "NodeJS", , "ExpressJS", "JavaScript", "Postgres"],
   },
   {
