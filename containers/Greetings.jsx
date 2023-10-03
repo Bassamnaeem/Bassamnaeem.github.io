@@ -60,7 +60,7 @@ const Greetings = () => {
                     style={{ width: "500px" }}
                   /> */}
                   <Image
-                    src="/bassamnaeem.png"
+                    src="/img/icons/common/bassamnaeem.png"
                     width={600}
                     height={600}
                     alt="My Image"
