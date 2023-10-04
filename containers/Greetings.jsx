@@ -59,12 +59,12 @@ const Greetings = () => {
                     alt="My Image"
                     style={{ width: "500px" }}
                   />*/ }
-                  <Image
+{/*                   <Image
                     src="/img/icons/common/bassamnaeem.jpg"
                     width={600}
                     height={600}
                     alt="My Image"
-                  />
+                  /> */}
                 </Col>
               </Row>
             </div>
