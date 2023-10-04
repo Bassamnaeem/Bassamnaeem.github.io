@@ -53,12 +53,12 @@ const Greetings = () => {
                   </div>
                 </Col>
                 <Col lg="6">
-                  {/* <GreetingLottie animationPath="/lottie/coding.json" /> */}
+                  { <GreetingLottie animationPath="/lottie/coding.json" /> }
                   {/* <img
                     src={myImage}
                     alt="My Image"
                     style={{ width: "500px" }}
-                  /> */}
+                  />*/ }
                   <Image
                     src="/img/icons/common/bassamnaeem.jpg"
                     width={600}
