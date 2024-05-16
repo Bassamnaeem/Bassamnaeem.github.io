@@ -148,7 +148,17 @@ export const experience = [
     role: "Full Stack Software Developer Intern",
     company: "Tixsee Labs LLC.",
     companylogo: "/img/icons/common/tixsee.png",
-    date: "August 2023 -Present",
+    date: "March 2023 -June 2023",
+    descBullets: [
+      "  As a Software Developer Intern at Tixsee Labs LLC,I work with Next.js, React.js, Node.js, Express, MongoDB, and Fastify to build modern web solutions, create efficient back-end systems, and tackle challenges collaboratively with a talented team. 💻🚀",
+      "  I work independently to implement new features, improve the overall user experience and make sure the platform is reliable and fast for our customers.",
+    ],
+  },
+  {
+    role: "Full Stack Software Developer Intern",
+    company: "Neusol Global.",
+    companylogo: "/img/icons/common/tixsee.png",
+    date: "March 2023 -June 2023",
     descBullets: [
       "  As a Software Developer Intern at Tixsee Labs LLC,I work with Next.js, React.js, Node.js, Express, MongoDB, and Fastify to build modern web solutions, create efficient back-end systems, and tackle challenges collaboratively with a talented team. 💻🚀",
       "  I work independently to implement new features, improve the overall user experience and make sure the platform is reliable and fast for our customers.",
