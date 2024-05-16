@@ -6,7 +6,7 @@ export const greetings = {
   description:
     "I'm Bassam Naeem, a dynamic and driven full-stack developer currently pursuing a BSCS degree at the University of Karachi. With an insatiable curiosity and a passion for coding, I thrive on turning innovative ideas into tangible, user-centric web solutions. Proficient in the MERN stack, Next.js, and Postgres, I'm constantly expanding my technological toolkit to create elegant and efficient solutions for real-world problems and exciting new projects.",
   resumeLink:
-    "https://drive.google.com/file/d/1DQ-slJrCXwEi1vmrKzVnpiJZYzIs_8dh/view?usp=drive_link/",
+    "https://drive.google.com/file/d/1O5Hw3gyuMq92RiQhT7OaBTHh_uR8UBNN/view?usp=drive_link",
 };
 
 export const openSource = {
@@ -147,7 +147,7 @@ export const experience = [
   {
     role: "Full Stack Software Developer Intern",
     company: "Tixsee Labs LLC.",
-    companylogo: "/img/icons/common/tixsee.png",
+    companylogo: "/img/experience/tixsee.png",
     date: "March 2023 -June 2023",
     descBullets: [
       "  As a Software Developer Intern at Tixsee Labs LLC,I work with Next.js, React.js, Node.js, Express, MongoDB, and Fastify to build modern web solutions, create efficient back-end systems, and tackle challenges collaboratively with a talented team. 💻🚀",
@@ -157,8 +157,8 @@ export const experience = [
   {
     role: "Full Stack Software Developer Intern",
     company: "Neusol Global.",
-    companylogo: "/img/icons/common/tixsee.png",
-    date: "March 2023 -June 2023",
+    companylogo: "/img/experience/neusol_Logo.png",
+    date: "July 2023 -December 2023",
     descBullets: [
       "  As a Software Developer Intern at Tixsee Labs LLC,I work with Next.js, React.js, Node.js, Express, MongoDB, and Fastify to build modern web solutions, create efficient back-end systems, and tackle challenges collaboratively with a talented team. 💻🚀",
       "  I work independently to implement new features, improve the overall user experience and make sure the platform is reliable and fast for our customers.",
