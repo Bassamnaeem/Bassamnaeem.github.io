@@ -6,7 +6,7 @@ export const greetings = {
   description:
     "I'm Bassam Naeem, a dynamic and driven full-stack developer currently pursuing a BSCS degree at the University of Karachi. With an insatiable curiosity and a passion for coding, I thrive on turning innovative ideas into tangible, user-centric web solutions. Proficient in the MERN stack, Next.js, and Postgres, I'm constantly expanding my technological toolkit to create elegant and efficient solutions for real-world problems and exciting new projects.",
   resumeLink:
-    "https://drive.google.com/file/d/1O5Hw3gyuMq92RiQhT7OaBTHh_uR8UBNN/view?usp=drive_link",
+    "https://drive.google.com/file/d/1O5Hw3gyuMq92RiQhT7OaBTHh_uR8UBNN/view?usp=sharing",
 };
 
 export const openSource = {
@@ -23,7 +23,7 @@ export const socialLinks = {
 
 export const skillsSection = {
   title: "What I do",
-  subTitle: " FULL STACK DEVELOPER EXPLORING EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER EXPLORING EVERY TECH STACK",
   data: [
     {
       title: "Full Stack Development",
@@ -75,13 +75,12 @@ export const skillsSection = {
           skillName: "ExpressJS",
           fontAwesomeClassname: "logos:express",
         },
-
         {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "logos:postgresql",
         },
         {
-          skillName: "MySQL-icon",
+          skillName: "MySQL",
           fontAwesomeClassname: "logos:mysql-icon",
         },
         {
@@ -108,7 +107,6 @@ export const skillsSection = {
           skillName: "Visual Studio Code",
           fontAwesomeClassname: "logos:visual-studio-code",
         },
-        ,
       ],
     },
   ],
@@ -133,35 +131,51 @@ export const educationInfo = [
   {
     schoolName: "University Of Karachi",
     subHeader: "Bachelor of Science in Computer Science",
-    duration: "Feburary 2021 - Present",
+    duration: "February 2021 - Present",
     desc: "Bachelors of Science in Computer Science",
     descBullets: [
-      "The Bachelors of Science in Computer Science (BSCS) ,Courses include: Data Structures, Algorithms, Object Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Software Engineering, and Web Development.",
+      "Courses include: Data Structures, Algorithms, Object Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Software Engineering, and Web Development.",
     ],
-    github: "https://github.com/Bassamnaeem/",
   },
-  ,
 ];
 
 export const experience = [
   {
-    role: "Full Stack Software Developer Intern",
-    company: "Tixsee Labs LLC.",
-    companylogo: "/img/experience/tixsee.png",
-    date: "March 2023 -June 2023",
+    role: "Associate Software Engineer",
+    company: "360XpertSolutions",
+    companylogo: "/experience/360Xpert.jpeg",
+    date: "January 2024 - Present",
+    desc: "Leading a team of trainees in developing mobile and web applications. Developing full stack web applications using Next.js, React, and React Native (Android & iOS). Implementing back-end services with Fastify, PostgreSQL, Docker, and TypeORM. Utilizing project management tools like Trello to streamline workflows and enhance productivity.",
     descBullets: [
-      "  As a Software Developer Intern at Tixsee Labs LLC,I work with Next.js, React.js, Node.js, Express, MongoDB, and Fastify to build modern web solutions, create efficient back-end systems, and tackle challenges collaboratively with a talented team. 💻🚀",
-      "  I work independently to implement new features, improve the overall user experience and make sure the platform is reliable and fast for our customers.",
+      "Leading a team of trainees in developing mobile and web applications.",
+      "Developing full stack web applications using Next.js, React, and React Native (Android & iOS).",
+      "Implementing back-end services with Fastify, PostgreSQL, Docker, and TypeORM.",
+      "Utilizing project management tools like Trello to streamline workflows and enhance productivity.",
     ],
   },
   {
-    role: "Full Stack Software Developer Intern",
-    company: "Neusol Global.",
-    companylogo: "/img/experience/neusol_Logo.png",
-    date: "July 2023 -December 2023",
+    role: "Associate Software Engineer (Full Stack)",
+    company: "Neusol - Global IT Services",
+    companylogo: "/experience/neusol_Logo.png",
+    date: "July 2023 - December 2023",
+    desc: "Developed and maintained scalable web applications using Next.js, Nest.js, and PostgreSQL. Collaborated with a dynamic team to design and implement innovative solutions for diverse projects. Integrated Active Directory and LDAP for enhanced security and user management. Conducted code reviews and actively contributed to team knowledge sharing sessions.",
     descBullets: [
-      "  As a Software Developer Intern at Tixsee Labs LLC,I work with Next.js, React.js, Node.js, Express, MongoDB, and Fastify to build modern web solutions, create efficient back-end systems, and tackle challenges collaboratively with a talented team. 💻🚀",
-      "  I work independently to implement new features, improve the overall user experience and make sure the platform is reliable and fast for our customers.",
+      "Developed and maintained scalable web applications using Next.js, Nest.js, and PostgreSQL.",
+      "Collaborated with a dynamic team to design and implement innovative solutions for diverse projects.",
+      "Integrated Active Directory and LDAP for enhanced security and user management.",
+      "Conducted code reviews and actively contributed to team knowledge sharing sessions.",
+    ],
+  },
+  {
+    role: "Intern Software Engineer",
+    company: "Tixsee Labs LLC.",
+    companylogo: "/experience/tixsee.png",
+    date: "May 2023 - July 2023",
+    desc: "Built modern web solutions using React.js, Express, and MongoDB. Created efficient back-end systems to support dynamic web applications. Worked collaboratively with a talented team to address challenges and deliver high-quality products.",
+    descBullets: [
+      "Built modern web solutions using React.js, Express, and MongoDB.",
+      "Created efficient back-end systems to support dynamic web applications.",
+      "Worked collaboratively with a talented team to address challenges and deliver high-quality products.",
     ],
   },
 ];
@@ -175,8 +189,16 @@ export const hobbies = {
       iconifyClassname: "bx:bx-book",
     },
     {
-      name: "Hiking",
-      iconifyClassname: "bi:geo-alt",
+      name: "Traveling",
+      iconifyClassname: "ri:airplane-fill",
+    },
+    {
+      name: "Chess",
+      iconifyClassname: "bi:chess-queen",
+    },
+    {
+      name: "Photography",
+      iconifyClassname: "ri:camera-fill",
     },
   ],
 };
@@ -186,33 +208,46 @@ export const certifications = {
   title: "Certifications",
   certificationsList: [
     {
-      title: "Server-side",
-      authority: "Amazon Web Services",
-      authorityLink: "https://aws.amazon.com/certification/",
+      title: "Trello for Beginners",
+      authority: "Coursera",
+      authorityLink: "https://www.coursera.org",
       certificationLink:
-        "https://www.youracclaim.com/badges/12345678-1234-5678-abcd-1234567890ab/public_url",
+        "https://www.coursera.org/account/accomplishments/certificate/7JD2E6ZHUBML",
     },
     {
-      title: "Google Cloud Certified - Professional Cloud Architect",
-      authority: "Google Cloud",
-      authorityLink: "https://cloud.google.com/certification",
+      title: "Server-side Development with NodeJS, Express, and MongoDB",
+      authority: "Coursera",
+      authorityLink: "https://www.coursera.org",
       certificationLink:
-        "https://www.credential.net/12345678-1234-5678-abcd-1234567890ab",
+        "https://www.coursera.org/account/accomplishments/certificate/HY43KYDAWRSQ",
+    },
+    {
+      title: "Programming Essentials In Python (PCAP)",
+      authority: "Cisco Networking Academy",
+      authorityLink: "https://www.netacad.com",
+      certificationLink: "https://www.credly.com/badges/your-badge-id",
     },
   ],
 };
+
 export const projects = [
   {
-    name: "Tours Things To Do",
-    desc: "Tour Things To Do is a website that allows users to find Events in their cities and book tickets. It was built using NextJS, NodeJS, and Postgres.",
-    link: "https://toursthingstodo.com/",
-    tags: ["NextJS", "NodeJS", , "ExpressJS", "JavaScript", "Postgres"],
+    name: "Employee Portal System",
+    desc: "Developed a comprehensive employee portal system for an investment company, integrating Microsoft Exchange services and Active Directory. Utilized Next.js, Material UI, Nest.js, and GraphQL for building features like charts, calendar meetings, and news/events CRUD operations.",
+    link: "https://example.com/",
+    tags: ["Next.js", "Material UI", "Nest.js", "GraphQL"],
   },
   {
-    name: " Boolean Information Model System",
-    desc: "The information retrieval system is a search engine that allows users to search for documents based on keywords. It was built using Python and Tkinter.",
-    github: "https://github.com/Bassamnaeem/boolean-ir-model-python",
-    tags: ["Python", "Tkinter", "Jupyter Notebook"],
+    name: "Fleet Tracking App",
+    desc: "Built a cross-platform fleet tracking application using React Native, featuring Google Maps integration, real-time streaming with Socket.io, and push notifications.",
+    link: "https://example.com/",
+    tags: ["React Native", "Google Maps", "Socket.io", "Push Notifications"],
+  },
+  {
+    name: "Cosmetics Company Website",
+    desc: "Designed and developed a modern website for a cosmetics company.",
+    link: "https://cosmetic-landing-page.vercel.app/",
+    tags: ["Next.js", "JavaScript", "CSS"],
   },
 ];
 
@@ -229,13 +264,17 @@ export const seoData = {
     "Open to work",
     "Tixsee Labs",
     "Developer",
-    "web developer",
+    "Web Developer",
     "Pakistan",
-    "Developer Student Clubs",
-    "Nextjs developer",
-    "Reactjs developer",
-    "Canton Regional Chamber of Commerce",
+    "Nextjs Developer",
+    "Reactjs Developer",
     "Karachi",
     "Karachi University",
+    "University of Karachi",
+    "Computer Science",
+    "Software Engineer",
+    "MERN Stack Developer",
+    "Software Developer",
+    "Neusol",
   ],
 };
